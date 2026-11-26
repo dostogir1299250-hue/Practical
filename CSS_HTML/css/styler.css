@@ -6,48 +6,85 @@
 
 
 #header{
-    height: 33vh;
+    height:33vh;
     width: 100%;
     background-color: aqua;
     display: flex;
     flex-direction: row;
     
 }
-#header>header{
+#header>div{
     flex: 1;
     height: 100%;
 }
-#header2{
-    height: inherit;
-    width: 33%;
+#header1{
+    
     background-color: rgb(234, 238, 25);
     
 }
 
-#header3{
-    height: inherit;
-    width: 34%;
+#header2{
+  
     background-color: rgb(17, 14, 212);
     
 }
-#header4{
-     height: inherit;
-    width: 33%;
+#header3{
+    
     background-color: rgb(243, 24, 170);
+
+}
+#header4{
+    
+    background-color: rgb(220, 25, 51);
 
 }
 
 #body{
-    height: 34vh;
+    height:34vh;
     width: 100%;
-    background-color: rgb(62, 189, 23);
+    display: flex;
+    flex-direction: row;
 }
+#body>div{
+    flex: 1;
+    height: 100%;
+}
+    #div_1{
+        background-color: black;
+    }
+    #div_2{
+        background-color: blueviolet;
+    }
+
+    
 #footer{
-    height: 33vh;
+
+    height:33vh;
     width: 100%;
-    background-color: rgb(218, 18, 174);
+   
+    display: flex;
+    flex-direction: row;
+
+
+
+    /* height: 33vh;
+    width: 100%;
+    background-color: rgb(218, 18, 174); */
 
 }
-#footer span{
-    color: rgb(13, 192, 216);
+#footer>div{
+    flex: 1;
+    height: 100%;
 }
+#h1{
+    background-color: maroon;
+}
+
+#h2{
+    background-color: greenyellow;
+}
+
+#h3{
+    background-color: mediumorchid;
+}
+
