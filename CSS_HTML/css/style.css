@@ -1,0 +1,85 @@
+/* Here i gather all the posible space from thr web by *  */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* This is the parental Dev and its limitation and its direction. */
+
+#header {
+
+    width: 100%;
+    height: 33vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* Due to culture of multiple dev in the parent div here is the logic. */
+
+#header>div {
+    flex: 1;
+    height: inherit;
+}
+
+/* Multiple Div */
+
+#header1 {
+    background-color: black;
+}
+
+#header2 {
+    background-color: brown;
+}
+
+#header3 {
+    background-color: darkgreen;
+}
+
+#body{
+
+    height:34vh;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#body>div {
+    flex: 1;
+    height: inherit;
+}
+
+#div_1{
+    background-color: blue;
+}
+
+#div_2{
+    background-color: darkslategray;
+}
+#footer {
+
+    height: 33vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#footer>div {
+    flex: 1;
+    height: inherit;
+}
+
+#h1{
+    background-color: black;
+}
+
+#h2{
+    background-color: blueviolet;
+
+}
+#h3{
+    background-color: brown;
+}
