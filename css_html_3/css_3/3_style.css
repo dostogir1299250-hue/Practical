@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(235, 24, 122);
+}
+
+#body{
+    height: 80vh;
+    width: 100%;
+
+}
+
+#footer{
+    height: 10vh;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+#Sign{
+    flex-shrink: 0;
+}
+
+#Sign img{
+    margin: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+
+
+}
+nav{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items:center;
+    padding: 0 20px;
+}
+#Manu ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+#Manu{
+    margin-left: auto;
+}
+#Manu ul li{
+ list-style: none;
+}
+#Manu ul a{
+    text-decoration: none;
+    color: black;
+
+}
+#Manu li :hover{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 10%;
+}
