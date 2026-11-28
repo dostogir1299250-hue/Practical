@@ -1,0 +1,70 @@
+*{
+    margin: opx;
+    padding: opx;
+    
+}
+nav{
+
+    width: 100%;
+    height: 10vh;
+    background-color: brown;
+    
+
+}
+#Kaazi_al_Hazat{
+    float: left;      
+}
+
+p{
+    float: left;
+    color: azure;
+    
+  }
+
+  /* here nanu bar does not work */
+  /* #hamburger{
+    float: right;
+    color: aliceblue;
+    cursor: pointer;
+    size: 100px;
+    margin:15px 10px ;
+    
+  } */
+  /* #hamburger :hover{
+    background-color: black;
+    padding: 5px;
+    border-radius: 5%;
+    
+      } */
+
+ul li{
+
+    list-style: none;
+    float: right;
+    margin: 15px 10px;
+   
+
+    
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px; */
+
+}
+/* to hide the text hyperlink line.we use to code like */
+ul li a{
+    text-decoration: none;
+    color: gold;
+
+}
+ul li a:hover{
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+
+    
+}
+
+        
+          
+
